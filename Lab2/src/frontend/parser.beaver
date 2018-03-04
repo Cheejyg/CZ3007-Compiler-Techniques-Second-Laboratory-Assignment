@@ -57,7 +57,7 @@ Declaration = FunctionDeclaration
 	|	TypeDeclaration
 	;
 
-FunctionDeclaration = Accessibility TypeName ID LPAREN Parameters RPAREN LCURLY StatementList RCURLY;
+FunctionDeclaration = Accessibility TypeName ID LPAREN ParameterList RPAREN LCURLY StatementList RCURLY;
 
 FieldDeclaration = Accessibility TypeName ID SEMICOLON;
 
@@ -82,9 +82,9 @@ ArrayType = PrimitiveType LBRACKET RBRACKET
 	|	ID LBRACKET RBRACKET
 	;
 
-/*ParameterList = Parameters
+ParameterList = Parameters
 	|
-	;*/
+	;
 
 Parameters = Parameter COMMA Parameters
 	|	Parameter
