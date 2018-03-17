@@ -15,8 +15,8 @@ workspace.(Do not import it as a project into another workspace. There are sever
 
 The code contained in this project is structured as follows: 
 * folder **src** contains the source code: 
-    - package **frontend** contains a skeleton of a parser specification in file ***parser.beaver;*** to complete this lab assignment, you will need to complete the code of the parser as described below;
-    - package **test** contains the unit test suite in file ***ParserTests.java***; to test your grammar rules in **parser.beaver**; you should add more tests here;
+	- package **frontend** contains a skeleton of a parser specification in file ***parser.beaver;*** to complete this lab assignment, you will need to complete the code of the parser as described below;
+	- package **test** contains the unit test suite in file ***ParserTests.java***; to test your grammar rules in **parser.beaver**; you should add more tests here;
 * folder **gen** contains generated code, including a lexer for you to use in this assignment (so you do not need to use the lexer you developed in the previous lab);
 * folder **lib** contains third-party libraries
 * **build.xml** is an Apache Ant build file that we will use to generate the parser from parser.beaver.
